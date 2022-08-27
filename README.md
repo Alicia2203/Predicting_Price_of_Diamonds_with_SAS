@@ -14,7 +14,7 @@ The analysis objectives of this assignment using the diamonds dataset are to ide
 Before performing statistical modelling and analysis on our dataset, it is necessary to deploy descriptive analysis to better understand and get an overview of the dataset.  
 
 ![image](https://user-images.githubusercontent.com/69787181/187031375-0fb5d20b-40b5-4e6c-a76b-dc7c62fae7c7.png)
-
+<img src="https://user-images.githubusercontent.com/69787181/187031375-0fb5d20b-40b5-4e6c-a76b-dc7c62fae7c7.png" width=50% height=50%>
 As shown in Figure 1, we observed the output table that lists out the variables of our dataset as well as the data type that was interpreted by SAS studio. As expected, the data type of variable cut, colour and clarity are character data types (char) whereas all the other variables are in numeric data (num).  
 
 In view that we are interested in using a multiple linear regression model to predict the price of diamonds and linear regression model requires all input variables to be numeric, we encoded the variables cut, colour and clarity are ordinal categorical variables to numeric variables. As shown in Figure 2, the values of cut variable Fair, Good, Very Good, Premium and Ideal are encoded to the numbers 1 to 5 respectively; the values of color variable J, I, H, G, F, E and D are encoded to the numbers 1 to 7 respectively; the values of clarity variable SI2, SI1, VS2, VS1, VVS2, VVS1, IF are encoded to the numbers 1 to 8 respectively. The encoded variables cut, color and clarity are then assigned to new columns namely cutNo, colorNo and clarityNo.
