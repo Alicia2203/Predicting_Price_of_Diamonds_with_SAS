@@ -95,38 +95,53 @@ To determine the collective influence of the explanatory variables in this datas
 Inference for Individual Regression Coefficients and Confidence Interval Estimate for the Slope
 Next, a test for the significance of the individual regression coefficients is needed to determine which explanatory variables have a significant effect on the response variable.  
 
-$$𝐻_0:β_1 = 0 $$
-.  
-$$𝐻_1:β_1 ≠ 0$$  
+![image](https://user-images.githubusercontent.com/69787181/187036822-e4ff0d44-9b95-49e6-8eac-256740459ad7.png)
 
-
-
-where 𝛽1 is the partial regression coefficient for 𝑋1 (carat).
+where 𝛽1 is the partial regression coefficient for 𝑋1 (carat).  
 The test statistic t-value for carat is 198.43 with corresponding p-value is < 0.0001, null hypothesis is rejected at significance level 𝛼 = 0.05. There is strong evidence that carat is related to the price, controlling for the other variables.
 Controlling for other explanatory variables in the model, we are 95% confident that the change in the mean price per weight (g) increase in carat falls between $10802 and $11018.  
 
-$$𝐻_0:β_1 = 0$$   
-$$𝐻_1:β_1 ≠ 0$$  
+![image](https://user-images.githubusercontent.com/69787181/187036846-6b52e4e9-c04f-451c-9092-ef01d0629c13.png)
 
-𝐻0:𝛽2=0   
-𝐻1:𝛽2 ≠0
+Where 𝛽2 is the partial regression coefficient for 𝑋2 (cutNo).   
+The test statistic t-value for cutNo is 22.34 with corresponding p-value is < 0.0001, null hypothesis is rejected at significance level 𝛼 = 0.05. There is strong evidence that cutNo is related to the price, controlling for the other variables.
+Controlling for other explanatory variables in the model, we are 95% confident that the change in the mean price per diamond quality increase in cutNo falls between $117.04 and $139.55.  
  
+ ![image](https://user-images.githubusercontent.com/69787181/187036859-73b4233c-10a7-40b4-98f6-74275cce97f6.png)
+
+Where 𝛽3 is the partial regression coefficient for 𝑋3 (colorNo).  
+The test statistic t-value for colorNo is 99.30 with corresponding p-value is < 0.0001, null hypothesis is rejected at significance level 𝛼 = 0.05. There is strong evidence that colorNo is related to the price, controlling for the other variables.
+Controlling for other explanatory variables in the model, we are 95% confident that the change in the mean price per diamond color increase in colorNo falls between $316.08 and $328.81.  
  
- 
+![image](https://user-images.githubusercontent.com/69787181/187036867-0f114fa9-6918-432a-b942-799770463626.png)
 
+Where 𝛽4 is the partial regression coefficient for 𝑋4 (clarityNo).  
+The test statistic t-value for clarityNo is 140.16 with corresponding p-value is < 0.0001, null hypothesis is rejected at significance level 𝛼 = 0.05. There is strong evidence that clarityNo is related to the price, controlling for the other variables.Controlling for other explanatory variables in the model, we are 95% confident that the change in the mean price per diamond clarity increase in clarityNo falls between $486.37 and $501.19.   
 
+![image](https://user-images.githubusercontent.com/69787181/187036884-35d2522d-bd12-46ff-9859-3b4b9a80f53c.png)
 
+Where 𝛽5 is the partial regression coefficient for 𝑋5 (depthpercent).  
+The test statistic t-value for depthpercent is -17.91 with corresponding p-value is < 0.0001, null hypothesis is rejected at significance level 𝛼 = 0.05. There is strong evidence that depthpercent is related to the price, controlling for the other variables.
+Controlling for other explanatory variables in the model, we are 95% confident that the change in the mean price per diameter increase in depthpercent falls between $-87.65 and $-70.35.  
 
+![image](https://user-images.githubusercontent.com/69787181/187036902-30a701b8-2e16-413a-a182-4753b1bc58ae.png)
 
+Where 𝛽6 is the partial regression coefficient for 𝑋6 (table).  
+The test statistic t-value for table is -6.69 with corresponding p-value is < 0.0001, null hypothesis is rejected at significance level 𝛼 = 0.05. There is strong evidence that the variable table is related to the price, controlling for the other variables.
+Controlling for other explanatory variables in the model, we are 95% confident that the change in the mean price per diamond increase in table (width of the diamond's table expressed as a percentage of its average diameter) falls between $-25.97 and $-14.20.  
 
+![image](https://user-images.githubusercontent.com/69787181/187036913-36aa231e-3225-4341-ac0f-2a98caaada18.png)
 
+Where 𝛽7 is the partial regression coefficient for 𝑋7 (length).  
+The test statistic t-value for length is -26.09 with corresponding p-value is < 0.0001, null hypothesis is rejected at significance level 𝛼 = 0.05. There is strong evidence that length is related to the price, controlling for the other variables.
+Controlling for other explanatory variables in the model, we are 95% confident that the change in the mean price per millimeters increase in length falls between $-2634.65 and $-2266.52.  
 
+![image](https://user-images.githubusercontent.com/69787181/187036927-0e56f1d2-5737-4542-b651-c912a56cb4dd.png)
 
-
-
-
-
-
+Where 𝛽8 is the partial regression coefficient for 𝑋8 (width).  
+The test statistic t-value for width is 16.55 with corresponding p-value is < 0.0001, null hypothesis is rejected at significance level 𝛼 = 0.05. There is strong evidence that width is related to the price, controlling for the other variables.
+Controlling for other explanatory variables in the model, we are 95% confident that the change in the mean price per millimeters increase in width falls between $1352.69 and $1716.17.
+It is concluded that all variables namely carat, cutNo, colorNo, clarityNo, depthpercent, table, length, width and depth has a significant effect on the response variable.  
 
 
 
