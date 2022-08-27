@@ -95,8 +95,8 @@ To determine the collective influence of the explanatory variables in this datas
 Inference for Individual Regression Coefficients and Confidence Interval Estimate for the Slope
 Next, a test for the significance of the individual regression coefficients is needed to determine which explanatory variables have a significant effect on the response variable.  
 
-$$𝐻_0:β_1 = 0   <br/>
-𝐻_1:β_1 ≠ 0$$  
+$$𝐻_0:β_1 = 0$$   <br/>
+$$𝐻_1:β_1 ≠ 0$$  
 
 where 𝛽1 is the partial regression coefficient for 𝑋1 (carat).
 The test statistic t-value for carat is 198.43 with corresponding p-value is < 0.0001, null hypothesis is rejected at significance level 𝛼 = 0.05. There is strong evidence that carat is related to the price, controlling for the other variables.
