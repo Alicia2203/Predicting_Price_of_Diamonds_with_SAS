@@ -102,6 +102,9 @@ where 𝛽1 is the partial regression coefficient for 𝑋1 (carat).
 The test statistic t-value for carat is 198.43 with corresponding p-value is < 0.0001, null hypothesis is rejected at significance level 𝛼 = 0.05. There is strong evidence that carat is related to the price, controlling for the other variables.
 Controlling for other explanatory variables in the model, we are 95% confident that the change in the mean price per weight (g) increase in carat falls between $10802 and $11018.  
 
+$$𝐻_0:β_1 = 0$$   
+$$𝐻_1:β_1 ≠ 0$$  
+
 𝐻0:𝛽2=0   
 𝐻1:𝛽2 ≠0
  
