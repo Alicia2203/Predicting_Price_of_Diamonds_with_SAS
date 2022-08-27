@@ -41,7 +41,7 @@ To identify outliers, the distribution plot and box plot of each variable is exa
 
 ![image](https://user-images.githubusercontent.com/69787181/187035842-0a504fb7-697d-4eed-8760-83f73993870c.png)
 
-### 3. Statistical Modelling and Analysis
+## 3. Statistical Modelling and Analysis
 Before performing statistical modelling to predict the price of diamonds based on the other variables in this dataset, a scatter plot matrix is constructed to investigate the linear relationships between variables and to check for outliers. As seen in Figure 8, all 7 continuous variables are plotted against each other. It is observed that variable width and depth have a strong correlation with price; variable carat and length have a moderate correlation with price; variable depthPercent and table does not have a significant relation with price. It is also observed that there still remain some outliers that would be considered for removal.
 
 ![image](https://user-images.githubusercontent.com/69787181/187035866-eb4c7c03-6f5b-43fd-aaa8-dfb7714b9411.png)
@@ -80,12 +80,30 @@ After that, the 4 regression diagnostics plots are generated again to identify i
  
  ![image](https://user-images.githubusercontent.com/69787181/187035979-10080ada-c176-4f86-b640-07b4dbd51f40.png)
 
-### 4. Results and Conclusion
+## 4. Results and Conclusion
 Based on Figure 18, there are now 53910 numbers of observations. The output results of the new regression model in Figure 18 were interpreted and analysed. It is observed that our updated model has an R-Square value and Adjusted R-Square of 0.9077. Therefore, 90.77% of the variation in diamond price is explained by the variation in carat, cutNo, colorNo, clarityNo, depthpercent, table, length, width and depth. Furthermore, around 90.77% of the variation in diamond price can be explained by the variation in carat, cutNo, colorNo, clarityNo, depthpercent, table, length, width and depth, adjusted by number of predictors and sample size. R-Square value and Adjusted R-Square of this new regression model have slightly improved as compared to the previous model in Figure 9. The coefficient of variation is 30.82, which is relatively low, this suggests a good model fit. However, the variance inflation factors values suggest that there might be a collinearity problem in the model since the VIF is larger than 10 for variable carat, length, and width.
  
  ![image](https://user-images.githubusercontent.com/69787181/187035992-c58eae6e-7338-41a4-96fd-d4290ae37781.png)
 
+### Inference on Collective Influence  
  
+𝐻0: There is no linear relationship between the response variable and the explanatory variables.  
+𝐻1: There is a linear relationship between the response variable and at least one of the explanatory variables.  
+
+To determine the collective influence of the explanatory variables in this dataset it is required to perform an overall F-test that is used in the hypothesis testing procedure. Based on Figure 18, the F-value is 66237.1 and the p-value is <0.0001. The p-value is < 0.0001, thus null hypothesis is rejected at the 0.05 level of significance (𝛼 = 0.05). Therefore, at least one of the explanatory variables has a significant effect on the response variable.  
+
+Inference for Individual Regression Coefficients and Confidence Interval Estimate for the Slope
+Next, a test for the significance of the individual regression coefficients is needed to determine which explanatory variables have a significant effect on the response variable.  
+
+$$𝐻_0:β_1 = 0$$   
+$$𝐻_1:β_1 ≠ 0$$  
+
+where 𝛽1 is the partial regression coefficient for 𝑋1 (carat).
+The test statistic t-value for carat is 198.43 with corresponding p-value is < 0.0001, null hypothesis is rejected at significance level 𝛼 = 0.05. There is strong evidence that carat is related to the price, controlling for the other variables.
+Controlling for other explanatory variables in the model, we are 95% confident that the change in the mean price per weight (g) increase in carat falls between $10802 and $11018.  
+
+𝐻0:𝛽2=0   
+𝐻1:𝛽2 ≠0
  
  
  
