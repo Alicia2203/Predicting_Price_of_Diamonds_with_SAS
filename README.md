@@ -95,7 +95,7 @@ To determine the collective influence of the explanatory variables in this datas
 Inference for Individual Regression Coefficients and Confidence Interval Estimate for the Slope
 Next, a test for the significance of the individual regression coefficients is needed to determine which explanatory variables have a significant effect on the response variable.  
 
-$$𝐻_0:β_1 = 0   
+$$𝐻_0:β_1 = 0   <br/>
 𝐻_1:β_1 ≠ 0$$  
 
 where 𝛽1 is the partial regression coefficient for 𝑋1 (carat).
